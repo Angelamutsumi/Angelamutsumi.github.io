@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+nav ul li a:hover{
+    color: #cf962b;
+}
+nav ul li a{
+    color: white;
+}
+.dropdown-item{
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.navbar {   
+    background-color: #03045E;  
+    font-size: 1em;
+}
+.nav-item{
+    width: 7em;
+}
+#desativado{
+    color: #cf962b;
+}
+#faixaFoto{
+    background: url("./img/coluna.jpg");
+    background-size: cover;
+    height: 32em;
+}
+#logo{
+    width: 12%;
+}
+
+/* Botão menu responsivo */
+.custom.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }  
+.custom.navbar-toggler {
+    border: none;
+    margin: 0 auto;
+} 
+
+/* Footer */
+footer{
+    background-color: #03045E;
+    color: white;
+    font-size: 1em;
+    height: 3em;  
+    line-height: 3em;
+    text-align: center;
+    width: 100%; 
+}
+#crefito{
+    margin-bottom: 2%;
+}
+#dadosProfissionais{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    padding: 8% 5% 5% 5%;
+    text-align: center;
+}
+#dadosProfissionais img{
+    margin-left: 24%;
+    width: 50%;
+}
+#fotoDados{
+    height: 35em;
+    padding: 0;
+    width: 100%;   
+}
+
+/* Página index */
+#botao{
+    display: none;
+    border: none;
+    border-radius: 100px;
+    color: #03045E;
+    position: fixed;
+    right: 10px;
+    top: 680px;
+    z-index: 2;
+}
+#botao1{
+    border: none;
+    border-radius: 100px;
+    color: #03045E;
+    position: fixed;
+    right: 10px;
+    top: 680px;
+    z-index: 2;
+}
+#botao:hover{
+    color: #cf962b;
+}
+#botao1:hover{
+    color: #cf962b;
+}
+#faixaLogo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#frase{
+    background-color: #e9ecef;
+    color: #909c81;
+    font-size: 2.2em;
+    padding: 12% 8%;
+    text-align: center;
+}
+#parceria div{
+    background-color: #e9ecef;
+    color: #909c81;
+    font-size: 1.6em;
+    padding: 7% 8%;
+    text-align: center;
+}
+#parceria div a{
+    color: #03045E;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+#parceria div a:hover{
+    color: #cf962b;
+}
+#parceria img{
+    height: 30em;
+    padding: 0;
+    width: 100%;
+}
+#prioridade img{
+    height: 30em;
+    padding: 0;
+    width: 100%;
+}
+#saberMais img{
+    height: 30em;
+    padding: 0;
+    width: 100%;
+}
+#saberMais div{
+    background-color: #e9ecef;
+    color: #909c81;
+    font-size: 1.6em;
+    padding: 6% 8%;
+    text-align: center;
+}
+#saberMais div a{
+    color: #03045E;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+#saberMais div a:hover{
+    color: #cf962b;
+}
+#terapias div{
+    background-color: #e9ecef;
+    color: #909c81;
+    font-size: 1.6em;
+    padding: 6% 8%;
+    text-align: center;
+}
+#terapias div a{
+    color: #03045E;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+#terapias div a:hover{
+    color: #cf962b;
+}
+#terapias img{
+    height: 30em;
+    padding: 0;
+    width: 100%;
+}
+
+/* Página Lesões */
+#artrose aside{
+    color: #03045E;
+    font-size: 1.4em; 
+    text-align: left;
+}
+#artrose p{
+    border: 1px solid #03045E;
+    border-radius: 5px;
+    font-size: 1.2em; 
+    margin-bottom: 8%;    
+    padding: 3%; 
+    text-align: justify;
+}
+#escoliose aside{
+    color: #03045E;
+    font-size: 1.4em; 
+    text-align: left;
+}
+#escoliose p{
+    border: 1px solid #03045E;
+    border-radius: 5px;
+    font-size: 1.2em;     
+    padding: 3%; 
+    text-align: justify;
+}
+#figuraColuna{
+    margin-top: 4%;
+}
+#figuraColuna img{
+    border-radius: 5px;
+    width: 100%;
+    margin-left: -3%;
+}
+#hernia{
+    margin-top: 2%;
+}
+#hernia aside{
+    color: #03045E;
+    font-size: 1.4em; 
+    text-align: left;
+}
+#hernia p{
+    border: 1px solid #03045E;
+    border-radius: 5px;
+    font-size: 1.2em;     
+    padding: 3%; 
+    text-align: justify;
+}  
+#lombalgia{
+    margin-left: 2%;
+    margin-top: 0%;
+    width: 100%;
+}
+#lombalgia aside{
+    color: #03045E;
+    font-size: 1.4em; 
+}
+#lombalgia p{
+    border: 1px solid #03045E;
+    border-radius: 5px;
+    font-size: 1.2em;     
+    padding: 4%; 
+    text-align: justify;
+}
+#osteoporose{
+    margin-left: 2%;
+    width: 100%;
+}
+#osteoporose aside{
+    color: #03045E;
+    font-size: 1.4em;
+}
+#osteoporose p{
+    border: 1px solid #03045E;    
+    border-radius: 5px;
+    font-size: 1.2em;   
+    padding: 4%; 
+    text-align: justify;
+}
+
+/* Página Dúvidas */
+#faqBox {
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.faq{
+    margin-top: 2%;
+}
+.faq button{
+    background-color: #e9ecef;
+    color: #03045E;
+    font-size: 1.2em;
+    margin: 0 auto;
+    width: 100%;
+}
+.faq button:hover{
+    background-color: #e9ecef;
+    color: #cf962b;
+}
+.faq p{
+    font-size: 1.2em;
+    padding: 2% 5%;
+    text-align: justify;
+}
+#faqTitulo{
+    color: #03045E;
+    margin-bottom: 5%;
+}
+
+/* Página tratamento */
+#miofascial{
+    margin-top: 4%;
+}
+#miofascial aside{
+    color: #03045E;
+    font-size: 1.4em; 
+    text-align: left;
+}
+#miofascialDiv{
+    border: 1px solid #03045E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;     
+    padding: 3%; 
+    text-align: justify;
+}  
+#miofascialDiv img{
+    border-radius: 5px;    
+}
+#miofascial p{
+    padding: 2%;
+}
+#osteopatia{
+    margin-top: 2%;
+}
+#osteopatia aside{
+    color: #03045E;
+    font-size: 1.4em; 
+    text-align: left;
+}
+#osteopatiaDiv{
+    border: 1px solid #03045E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;     
+    padding: 3%; 
+    text-align: justify;
+}  
+#osteopatiaDiv img{
+    border-radius: 5px;
+}
+#osteopatia p{
+    padding: 2%;
+}
+#preventivo{
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+#preventivo aside{
+    color: #03045E;
+    font-size: 1.4em; 
+    text-align: left;
+}
+#preventivoDiv{
+    border: 1px solid #03045E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;     
+    padding: 3%; 
+    text-align: justify;
+}  
+#preventivoDiv img{
+    border-radius: 5px;
+}
+#preventivo p{
+    padding: 2%;
+}
+#quiropraxia{
+    margin-top: 4%;
+}
+#quiropraxia aside{
+    color: #03045E;
+    font-size: 1.4em; 
+    text-align: left;
+}
+#quiropraxiaDiv{
+    border: 1px solid #03045E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;     
+    padding: 3%; 
+    text-align: justify;
+}  
+#quiropraxiaDiv img{
+    border-radius: 5px;
+}
+#quiropraxia p{
+    padding: 2%;
+}
+aside{  
+    color: #03045E;
+    font-size: 1.4em;  
+}
+#vertebral{
+    margin-top: 4%;
+}
+#vertebral aside{
+    color: #03045E;
+    font-size: 1.4em; 
+    text-align: left;
+}
+#vertebralDiv{
+    border: 1px solid #03045E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;     
+    padding: 3%; 
+    text-align: justify;
+}  
+#vertebralDiv img{
+    border-radius: 5px;    
+}
+#vertebral p{
+    padding: 2%;
+}
+
+/* Página QuemSou */
+#curriculo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    padding: 5%;
+    text-align: justify;
+}
+#curriculo a{
+    color:#03045E;
+    font-size: 1.1em;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+#curriculo a:hover{
+    color: #cf962b;
+}
+#curriculo p{
+    font-size: 1.2em;
+    line-height: 2em;
+}
+#fotoJaleco{
+    border-radius: 5px;
+    margin-left: 7%;
+    margin-top: 15%;
+    position: absolute;
+    top: 9%;
+    width: 80%;
+}
+.depoimento{
+    border:  1px solid #03045E;
+    border-radius: 5px;
+    font-size: 1.2em;  
+    margin: 5% 0%;
+    padding: 8%;  
+    text-align: justify;
+    width: 100%;
+}
+#depoimentos{
+    margin-bottom: 7%;
+}
+#depoimentoTitulo{
+    color: #03045E;
+    font-size: 1.9em;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+/* Página Contatos */
+#app {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+#app a{
+    color: #03045E;
+    text-decoration: none;
+}    
+#app a:hover{
+    color: #cf962b;
+}
+#botaoForm{
+    color: white;
+    margin: 11% auto;
+    background-color: #03045E;
+}
+#botaoForm:hover{
+    color: #cf962b;
+}
+#contatoApp img{
+    height: 30em;
+    padding: 0;
+    width: 100%;
+}
+#contato{
+    background-color: #e9ecef;
+    font-size: 1.2em;
+    padding: 7% 8%;
+    text-align: center;
+    width: 100%;
+}
+#contato div a{
+    color: #03045E;
+    font-size: 1em;
+    text-decoration: none;
+}
+#contato div a:hover{
+    color: #cf962b;
+}
+#contatoEmail{
+    margin-top: 5%;
+}
+#faleconosco{
+    margin-bottom: 2%;
+    margin-top: 3%;
+    padding: 3%;
+}
+#formContato img{
+    position: absolute;
+    top: 8%;
+}
+#formContato img{
+    padding: 0%;
+    /* height: 100%; */
+    position: relative;
+   top: -0.2%;
+    width: 100%;
+}
