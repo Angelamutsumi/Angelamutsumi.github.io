@@ -20,13 +20,13 @@
 <body>
     <header class="row">
         <nav class="navbar navbar-expand-md col-md-12">
-            <button class="navbar-toggler custom" type="button" data-toggle="collapse" data-target="#menu"
-            aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">
-            <span class="navbar-toggler-icon text-light"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="#navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon" id="botaoMenu"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
               </svg></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item text-md-center">
                         <a class="nav-link text-uppercase" href="index.html">Início</a>
@@ -76,71 +76,73 @@
         </div>
     </header>
 
-    <main class="container" id="faqBox">
+    <main class="container">
         <h3 class="text-uppercase" id="faqTitulo">Dúvidas frequentes</h2>
-        <div class="dropdown faq">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Posso procurar o fisioterapeuta, independentemente de ir primeiro ao médico?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <p>Sim, o fisioterapeuta especializado pode ser o profissional de primeiro contato, após a avaliação, caso necessário, você poderá ser encaminhamento para outros profissionais de saúde com o intuito de otimizar o tratamento (médicos, nutricionistas, psicólogos ou profissional de educação física).</p>
+        <div class="row">
+            <div class="dropdown faq w-100">
+                <button class="btn dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Posso procurar o fisioterapeuta, independentemente de ir primeiro ao médico?
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p>Sim, o fisioterapeuta especializado pode ser o profissional de primeiro contato, após a avaliação, caso necessário, você poderá ser encaminhamento para outros profissionais de saúde com o intuito de otimizar o tratamento (médicos, nutricionistas, psicólogos ou profissional de educação física).</p>
+                </div>
             </div>
+            <div class="dropdown faq w-100" >
+                <button class="btn dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Quando devemos procurar um fisioterapeuta?
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p>Pensar em fisioterapia, para muitas pessoas é sinônimo de algum acidente ou contusão sofrida por alguém, mas a fisioterapia vai além disso, porque ela pode resolver problemas ortopédicos e até mesmo complicações respiratórias. Esse tipo de terapia é indicada para problemas ortopédicos, tratamentos de pacientes internados em estado grave, pessoas que tiveram os movimentos comprometidos por acidente vascular cerebral, distúrbios de quadros respiratórios crônicos, contusões, má postura, gestantes, portadores de deficiência física e mental e outros.</p>
+                </div>
+            </div>
+            <div class="dropdown faq w-100">
+                <button class="btn dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Suas técnicas tem comprovação específica?
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p>As técnicas realizadas são baseadas em modelos disponíveis na literatura cientifica. Estou sempre avaliando as novas publicações e adequando os modelos de tratamentos aos mais atuais. Trabalho dentro da melhor evidência disponível no momento.</p>
+                </div>
+            </div>
+            <div class="dropdown faq w-100">
+                <button class="btn dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Quais técnicas de fisioterapia você utiliza?
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p>Realizo uma fisioterapia baseada em terapias manuais de acordo com um protocolo específico e algumas técnicas auxiliares como eletroterapia, acupuntura e uso de ventosas. Após escolhida e definida a técnica ideal de tratamento e de acordo com as condições do paciente, recomendo também exercícios domiciliares com o objetivo de dar maior autonomia aos pacientes, acelerando assim o processo de resolução dos sintomas e com isso, o paciente conseguirá realizar um tratamento preventivo ao final das sessões.</p>
+                </div>
+            </div>
+            <div class="dropdown faq w-100">
+                <button class="btn dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Já fiz fisioterapia e as dores continuam, você realiza algum tratamento diferente?
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p>Muitos tratamentos são direcionados para alívio somente dos sintomas dos pacientes. Meu objetivo é atuar na causa do problema, através de um diagnostico correto e assertivo do seu problema e do uso de técnicas com total embasamento da literatura científica. Geralmente, na primeira sessão já já são observadas mudanças em relação ao seu padrão de dor, independentemente do tempo que você tem sofrido. Se a sua condição foi considerada apropriada para o tratamento com base em nossa avaliação abrangente, espere uma mudança significativa em seus sintomas e estilo de vida e, potencialmente, viva uma vida livre de dores e sem a necessidade de uso de medicamentos em excesso. Seu tratamento inicial pode durar entre 3-4 semanas para alcançar resultados desejáveis. Um paciente típico, após o término do tratamento inicial, será realizada uma reavaliação e adequação do tratamento. Para a maioria dos casos, não haverá necessidade de sessões de tratamento contínuas e incontáveis.</p>
+                </div>
+            </div>        
+            <div class="dropdown faq w-100">
+                <button class="btn dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    O tratamento pode ser feito para qualquer pessoa com dor?
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p>Após a avaliação inicial, só será indicado ao tratamento o paciente que for elegível para as técnicas em que sou capacitado. A princípio, o tratamento pode ser realizado por qualquer pessoa que tenha sinais e sintomas. Em casos específicos iremos avaliar se o paciente necessita ir a outros profissionais antes de iniciar as condutas. </p>
+                </div>
+            </div>
+            <div class="dropdown faq w-100">
+                <button class="btn dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Como é a avaliação inicial?
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p>A avaliação dura entre 60 a 120 minutos e abrange um exame subjetivo para conhecer toda a “história” da sua dor. Em seguida, um exame físico abrangente e aprofundado é realizado para avaliar todos os possíveis fatores que podem estar relacionados com essa dor. Esses exames têm como objetivo um diagnóstico preciso de sua condição. O tratamento pode se iniciar já nesta primeira sessão, se assim for indicado.</p>
+                </div>
+            </div>  
         </div>
-        <div class="dropdown faq">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Quando devemos procurar um fisioterapeuta?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <p>Pensar em fisioterapia, para muitas pessoas é sinônimo de algum acidente ou contusão sofrida por alguém, mas a fisioterapia vai além disso, porque ela pode resolver problemas ortopédicos e até mesmo complicações respiratórias. Esse tipo de terapia é indicada para problemas ortopédicos, tratamentos de pacientes internados em estado grave, pessoas que tiveram os movimentos comprometidos por acidente vascular cerebral, distúrbios de quadros respiratórios crônicos, contusões, má postura, gestantes, portadores de deficiência física e mental e outros.</p>
-            </div>
-        </div>
-        <div class="dropdown faq">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Suas técnicas tem comprovação específica?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <p>As técnicas realizadas são baseadas em modelos disponíveis na literatura cientifica. Estou sempre avaliando as novas publicações e adequando os modelos de tratamentos aos mais atuais. Trabalho dentro da melhor evidência disponível no momento.</p>
-            </div>
-        </div>
-        <div class="dropdown faq">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Quais técnicas de fisioterapia você utiliza?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <p>Realizo uma fisioterapia baseada em terapias manuais de acordo com um protocolo específico e algumas técnicas auxiliares como eletroterapia, acupuntura e uso de ventosas. Após escolhida e definida a técnica ideal de tratamento e de acordo com as condições do paciente, recomendo também exercícios domiciliares com o objetivo de dar maior autonomia aos pacientes, acelerando assim o processo de resolução dos sintomas e com isso, o paciente conseguirá realizar um tratamento preventivo ao final das sessões.</p>
-            </div>
-        </div>
-        <div class="dropdown faq">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Já fiz fisioterapia e as dores continuam, você realiza algum tratamento diferente?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <p>Muitos tratamentos são direcionados para alívio somente dos sintomas dos pacientes. Meu objetivo é atuar na causa do problema, através de um diagnostico correto e assertivo do seu problema e do uso de técnicas com total embasamento da literatura científica. Geralmente, na primeira sessão já já são observadas mudanças em relação ao seu padrão de dor, independentemente do tempo que você tem sofrido. Se a sua condição foi considerada apropriada para o tratamento com base em nossa avaliação abrangente, espere uma mudança significativa em seus sintomas e estilo de vida e, potencialmente, viva uma vida livre de dores e sem a necessidade de uso de medicamentos em excesso. Seu tratamento inicial pode durar entre 3-4 semanas para alcançar resultados desejáveis. Um paciente típico, após o término do tratamento inicial, será realizada uma reavaliação e adequação do tratamento. Para a maioria dos casos, não haverá necessidade de sessões de tratamento contínuas e incontáveis.</p>
-            </div>
-        </div>        
-        <div class="dropdown faq">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                O tratamento pode ser feito para qualquer pessoa com dor?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <p>Após a avaliação inicial, só será indicado ao tratamento o paciente que for elegível para as técnicas em que sou capacitado. A princípio, o tratamento pode ser realizado por qualquer pessoa que tenha sinais e sintomas. Em casos específicos iremos avaliar se o paciente necessita ir a outros profissionais antes de iniciar as condutas. </p>
-            </div>
-        </div>
-        <div class="dropdown faq">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Como é a avaliação inicial?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <p>A avaliação dura entre 60 a 120 minutos e abrange um exame subjetivo para conhecer toda a “história” da sua dor. Em seguida, um exame físico abrangente e aprofundado é realizado para avaliar todos os possíveis fatores que podem estar relacionados com essa dor. Esses exames têm como objetivo um diagnóstico preciso de sua condição. O tratamento pode se iniciar já nesta primeira sessão, se assim for indicado.</p>
-            </div>
-        </div>        
     </main>
     <a href="#navbarDropdown" id="botao1"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
         fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
         <path fill-rule="evenodd"
             d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
     </svg></a> 
-    <div class="row">
+    <div class="row mt-md-5">
         <div class="col-md-5" id="dadosProfissionais">
             <img src="./img/logo.png" alt="logo">
             <span id="crefito">CREFITO: 274122-F</span>
@@ -156,7 +158,7 @@
                 </svg></span></a>
             </div>                
         </div>
-        <img class="col-md-7" src="./img/maos.png" alt="pessoas de mãos dadas" id="fotoDados">
+        <img class="col-md-7 img-fluid" src="./img/maos.png" alt="pessoas de mãos dadas" id="fotoDados">
     </div>
     <footer>
        Desenvolvido por Angela M. Tsurumaki para o fisioterapeuta Matheus Freire - 2021
