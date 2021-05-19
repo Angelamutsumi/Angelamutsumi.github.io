@@ -523,6 +523,15 @@ aside{
 }
 #contatoEmail{
     margin-top: 5%;
+    white-space: normal;
+}
+@media (max-width: 768px) {
+    #contatoFoto{
+        margin: 5%;
+    }
+    #contatoFoto1{
+        margin: 2%;
+    }
 }
 #faleconosco{
     margin-bottom: 2%;
