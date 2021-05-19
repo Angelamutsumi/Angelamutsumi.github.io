@@ -22,7 +22,7 @@ nav ul li a{
 }
 @media (max-width: 768px) {
     .dropdown-item{
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
 }
 .navbar {   
@@ -195,6 +195,24 @@ footer{
     margin-bottom: 8%;    
     padding: 3%; 
     text-align: justify;
+}
+@media (max-width: 563px) {
+    #lesoesDiv{
+        padding-left: 0;
+
+    }
+    #escoliose, #artrose, #hernia{
+        margin-left: 0.01%;
+        margin-right: 0.01%;
+    }
+    #osteoporose p, #lombalgia p{
+        margin-left: 1.5%;
+        margin-right: 2.5%;
+    }
+    #figuraColuna{
+        margin-left: 5%;
+    }
+   
 }
 #escoliose aside{
     color: #03045E;
