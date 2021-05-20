@@ -1,23 +1,27 @@
-## Site profissional para o fisioterapeuta Matheus Freire
+<h1 align='center'> Site profissional para o fisioterapeuta Matheus Freire</h1>
 
 ## Descrição
 
-Projeto desenvolvido para um fisioterapeuta com o objetivo de compartilhamento de informações sobre patologias da coluna vertebral e dúvidas gerais sobre fisioterapia, divulgação de seus contatos, formação acadêmico-profissional e tratamentos oferecidos.
+Projeto front desenvolvido para um fisioterapeuta com o objetivo de compartilhamento de informações sobre patologias da coluna vertebral e dúvidas gerais sobre fisioterapia, divulgação de seus contatos, formação acadêmico-profissional e tratamentos oferecidos.
 
-## Como rodar a aplicação :arrow_forward:
+#### Status do projeto: concluído :heavy_check_mark: 
+
+![]('./img/telaInicial.png')
+
+## Como clonar o projeto: :arrow_forward:
 
 No terminal, clone o projeto:
-gitclone https://github.com/Angelamutsumi/Angelamutsumi.github.io.git
 
-<!-- Entre na pasta do projeto:
+```gitclone https://github.com/Angelamutsumi/Angelamutsumi.github.io.git```
 
-Instale as dependências:
-yarn instal ou npm install
+## Linguagens, dependências e libs utilizadas: :books:
 
-Execute a aplicação:
-yarn start ou npm start
+* [HTML](https://www.w3schools.com/)
+* [CSS](https://www.w3schools.com/)
+* [Javascript](https://www.w3schools.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Jquery](https://jquery.com/)
 
- Pronto, agora é possível acessar a aplicação a partir da rota http://localhost:3000/-->
+## Para dar uma olhadinha no projeto: 
 
-
-## Angelamutsumi.github.io
+### [Angelamutsumi.github.io](https://angelamutsumi.github.io/)
