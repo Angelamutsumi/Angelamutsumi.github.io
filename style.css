@@ -527,9 +527,6 @@ aside{
 }
 @media (max-width: 768px) {
     #contatoFoto{
-        margin: 5%;
-    }
-    #contatoFoto1{
         margin: 2%;
     }
 }
