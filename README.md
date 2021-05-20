@@ -7,7 +7,7 @@ Projeto desenvolvido para um fisioterapeuta com o objetivo de compartilhamento d
 ## Como rodar a aplicação :arrow_forward:
 
 No terminal, clone o projeto:
-gitclone https://github.com/Angelamutsumi/Angelamutsumi.github.io
+gitclone https://github.com/Angelamutsumi/Angelamutsumi.github.io.git
 
 <!-- Entre na pasta do projeto:
 
