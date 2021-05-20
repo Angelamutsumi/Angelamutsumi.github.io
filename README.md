@@ -6,7 +6,7 @@ Projeto front desenvolvido para um fisioterapeuta com o objetivo de compartilham
 
 #### Status do projeto: concluído :heavy_check_mark: 
 
-![]('./img/telaInicial.png')
+<img src="https://github.com/Angelamutsumi/Angelamutsumi.github.io/blob/main/img/telaInicial.png>
 
 ## Como clonar o projeto: :arrow_forward:
 
