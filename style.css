@@ -40,8 +40,29 @@ nav ul li a{
     background-size: cover;
     height: 32em;
 }
+#faixaLogo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 #logo{
-    width: 12%;
+    width: 15%;
+}
+@media (max-width: 481px) {
+    #logo{
+        width: 200px;
+    }
+}
+@media (max-width: 768px) {
+    #logo{
+        width: 30%;
+    }
+}
+@media (max-width: 1024px) {
+    #logo{
+        width: 22%;
+    }
 }
 
 /* Botão menu responsivo */
@@ -102,12 +123,6 @@ footer{
 }
 #botao1:hover{
     color: #cf962b;
-}
-#faixaLogo{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 #frase{
     background-color: #e9ecef;
@@ -453,7 +468,11 @@ aside{
     font-size: 1.2em;
     line-height: 2em;
 }
-
+@media (max-width: 768px) {
+    #curriculo p{
+        font-size: 0.9em;
+    }
+}
 #fotoJaleco{
     border-radius: 5px;
     margin-left: 7%;
@@ -528,6 +547,9 @@ aside{
 @media (max-width: 768px) {
     #contatoFoto{
         margin: 2%;
+    }
+    #cadastro{
+        margin-top: 10px;
     }
 }
 #faleconosco{
