@@ -11,7 +11,7 @@ Projeto frontend desenvolvido para um fisioterapeuta com o objetivo de compartil
 
 
 #### Status do projeto: concluído :heavy_check_mark: 
-#### Porém aberto a sugestões e melhorias :grin:
+#### Sempre aberto a sugestões e melhorias :grin:
 
 
 ## Como clonar o projeto: :arrow_forward:
